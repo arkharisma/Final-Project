@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto";
+}
+
+.logo-navbar {
+    width: 35px;
+}
+
+.header-text {
+    font-family: "Baloo Chettan", 'Roboto';
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.nav-item {
+    font-family: 'Acme', 'Roboto';
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-light.bg-light {
+    background-color: white;
+}
+
+@media (min-width:768px) {
+    .navbar-brand {
+        margin-left: 50px;
+    }
+    .navbar {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .itfest-about {
+        padding-top: 150px;
+    }
+}
+
+.carousel-caption {
+    font-family: 'Acme', 'Roboto';
+    font-size: 24px;
+}
+
+.itfest-about {
+    height: 610px;
+}
+
+.image-itfest {
+    width: 250px;
+}
+
+.header-itfest {
+    font-family: 'Baloo Chettan', 'Roboto';
+}
+
+.p-itfest {
+    font-family: 'Acme', 'Roboto';
+}
+
+.itfest-kompetisi {
+    height: 610px;
+    background-color: #FFD24D;
+    padding-top: 80px;
+}
+
+.kompetisi {
+    margin-bottom: 50px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card {
+    height: 350px!important;
+    border-radius: 10px!important;
+}
+
+.label-form {
+    font-family: 'Acme';
+}

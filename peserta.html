@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ITFest 3.0 Universitas Sumatera Utara</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Baloo+Chettan|Permanent+Marker|Roboto" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body onload="showData();">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand brand" href="#"><img src="images/logo-itfest-kuning.png" class="logo-navbar"> <span class="header-text">ITFest 3.0</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pendaftaran.html">Pendaftaran</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Peserta</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container itfest-about">
+        <div class="row">
+            <div class="col">
+                <h2 class="header-itfest text-center">Peserta</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Lomba</th>
+                        <th>No. HP</th>
+                    </thead>
+                    <thead>
+                        <th><input type="text" id="nama" onkeyup="search(1);" placeholder="Nama" class="form-control"></th>
+                        <th><input type="text" id="email" onkeyup="search(2);" placeholder="Email" class="form-control"></th>
+                        <th><input type="text" id="lomba" onkeyup="search(3);" placeholder="Lomba" class="form-control"></th>
+                        <th><input type="text" id="noHP" onkeyup="search(4);" placeholder="No. HP" class="form-control"></th>
+                    </thead>
+                    <tbody id="data">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
